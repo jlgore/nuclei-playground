@@ -15,3 +15,5 @@
 * Execute the Nuclei template: `nuclei -t rds-public-config.yaml -code`
 
 The Pulumi will create two RDS instances, one public and one private. Both exist in the default VPC (for now). The Nuclei code template will deploy the Pulumi and then scan for a publicly accessible databases.  
+
+[Screenshot of Nuclei Scan](image.png)
